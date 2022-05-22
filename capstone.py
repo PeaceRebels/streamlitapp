@@ -213,7 +213,8 @@ if uploaded_data is not None:
     physical = row4_col2.slider("An wievielen Tagen hat der Patient physische Beschwerden gehabt?",
                      data2["PhysicalHealth"].min(),
                      data2["PhysicalHealth"].max(),
-                     value=(10))
+                     value=(10),
+                     step=(lol))
     
     
     
