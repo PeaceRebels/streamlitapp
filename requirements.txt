@@ -1,0 +1,6 @@
+seaborn
+matplotlip
+pandas
+sklearn
+numpy
+waterfall_chart
