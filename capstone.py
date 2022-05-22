@@ -213,7 +213,7 @@ if uploaded_data is not None:
                      data2["PhysicalHealth"].min(),
                      data2["PhysicalHealth"].max(),
                      value=(10),
-                     step=(lol)
+                     step=(lol))
     
     
     
