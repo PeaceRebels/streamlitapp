@@ -231,8 +231,8 @@ if uploaded_data is not None:
     
     row4_col4.subheader("Schlafzeit")
     sleep = row4_col4.slider("Wieviel Stunden pro Nacht schläft der Patient im Durchschnitt?",
-                     data2["SleepTime"].min(),
-                     data2["SleepTime"].max(),
+                     np.int(data2["SleepTime"].min()),
+                     np.int(data2["SleepTime"].max()),
                      value=(8))
     
     
