@@ -3,4 +3,4 @@ matplotlip
 pandas
 sklearn
 numpy
-!pip install waterfallcharts
+waterfallcharts
