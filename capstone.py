@@ -216,7 +216,7 @@ if uploaded_data is not None:
     row4_col2.subheader("Physische Gesundheit")
     physical = row4_col2.slider("An wievielen Tagen hat der Patient physische Beschwerden gehabt?",
                      np.int(data2["PhysicalHealth"].min()),
-                     data2["PhysicalHealth"].max(),
+                     np.int(data2["PhysicalHealth"].max()),
                      value=(10),
                      step=(1))
     
