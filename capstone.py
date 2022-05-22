@@ -208,10 +208,12 @@ if uploaded_data is not None:
     
     lol = np.int64(1)
     lol2 = np.int64(10)
+    
+    
 
     row4_col2.subheader("Physische Gesundheit")
     physical = row4_col2.slider("An wievielen Tagen hat der Patient physische Beschwerden gehabt?",
-                     data2["PhysicalHealth"].astype(np.int32).min(),
+                     np_int.item(data2["PhysicalHealth"].min()),
                      data2["PhysicalHealth"].astype(np.int32).max(),
                      value=(10),
                      step=(1))
